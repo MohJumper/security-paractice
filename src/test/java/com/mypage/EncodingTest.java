@@ -10,7 +10,7 @@ public class EncodingTest {
 	public void encrypt_password () {
 		PasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
 		
-		String encodedPassword = passwordEncoder.encode("123");
+		String encodedPassword = passwordEncoder.encode("pass123");
 		
 		System.out.println(encodedPassword);
 	}
